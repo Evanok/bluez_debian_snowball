@@ -1064,10 +1064,10 @@ struct uart_t uart[] = {
 				FLOW_CTL, DISABLE_PM, NULL, texas,    texas2 },
 
 	{ "texasalt",   0x0000, 0x0000, HCI_UART_LL,   115200, 115200,
-				FLOW_CTL, DISABLE_PM, NULL, texasalt, NULL   },
+				FLOW_CTL, DISABLE_PM, NULL, texasalt, NULL   },
 
-       /* ST-Ericsson CG2900 GPS FM Bluetooth combo controller */
-       { "cg2900",     0x0000, 0x0000, HCI_UART_STE,  115200, 115200,
+	/* ST-Ericsson CG2900 GPS FM Bluetooth combo controller */
+	{ "cg2900",     0x0000, 0x0000, HCI_UART_STE,  115200, 115200,
                                FLOW_CTL, DISABLE_PM, NULL, NULL     },
 
 
